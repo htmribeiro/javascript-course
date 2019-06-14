@@ -1,4 +1,2 @@
 # VSCode workspace file
-*.code-workspace
-*.json
-/.vscode
+*.code-workspace *.json .vscode
