@@ -1,6 +1,62 @@
 ## Aula 4 - I01 - Introdução ao JavaScript - Básico I  
 
 #### console.log  
-Exibe informações no console do Navegador.
+Exibe informações no console do Navegador  
 #### F12  
-Abrirá o código no console do Navegador.
+Abrirá o código no console do Navegador  
+#### Case Sensitive  
+Letras MAIÚSCULAS e minúsculas diferem  
+#### Script Incorporado  
+Quando o arquivo Js está no mesmo arquivo HTML  
+### Comentários  
+Ignoram trechos de códigos  
+**Comentário de bloco:**  
+-> É utilizado o símbolo -**```\**\```**  
+**Comentário de linha:**  
+-> É utilizdo o símbolo -**```\\```**  
+
+### Variável  
+Um espaço na memória que armazena valor  
+#### var  
+O comando utilizado para declarar variáveis no JavaScript  
+#### let  
+Este comando declara variáveis definindo o escopo de atuação  
+Leva em conta o escopo em que foi definida, ou seja, aonde você declarou a variável  
+#### const  
+Declara constantes  
+O valor declarado nunca muda  
+"***constante*** é constante e ***variável*** é variável"  
+#### Function  
+Função anônima que irá dentro de uma variável  e invocá-la por meio de uma variável  
+
+### Tipo de dados  
+#### Number  
+Em JavaScript tanto inteiros como float são do mesmo tipo  
+#### typeOf  
+Comando para saber o tipo de dado de uma variável  
+#### Boolean  
+True or False  
+No JavaScriptas variáveis são **Fracamente tipadas** tipo de dado variável  
+#### parseInt, parseFloat  
+Funções de conversáo *toString*  
+
+### Objetos  
+#### Array  
+São variáveis com o mesmo nome e tipo  
+Armazenando mais de um vetor  
+
+### Operadores  
+#### =  
+Operador de atribuição  
+#### ==
+Operador de comparação  
+Compara o valor de duas expressões 
+```
+let a = 10;
+const b = "10";
+console.log(a == b);
+//output > true 
+```
+Isso ocorre porque o operador (==) ignora o tipo de dado  
+#### ===
+Compara o valor e o tipo de dados  
