@@ -11,9 +11,10 @@ Quando o arquivo Js está no mesmo arquivo HTML
 ### Comentários  
 Ignoram trechos de códigos  
 **Comentário de bloco:**  
--> É utilizado o símbolo -**```\**\```**  
+- É utilizado o símbolo -**```\**\```**  
+
 **Comentário de linha:**  
--> É utilizdo o símbolo -**```\\```**  
+- É utilizdo o símbolo -**```\\```**  
 
 ### Variável  
 Um espaço na memória que armazena valor  
@@ -47,9 +48,9 @@ Armazenando mais de um vetor
 
 ### Operadores  
 #### =  
-Operador de atribuição  
+**Operador de atribuição**  
 #### ==
-Operador de comparação  
+**Operador de comparação**  
 Compara o valor de duas expressões 
 ```
 let a = 10;
@@ -60,3 +61,40 @@ console.log(a == b);
 Isso ocorre porque o operador (==) ignora o tipo de dado  
 #### ===
 Compara o valor e o tipo de dados  
+#### !==
+Compara se os valores e tipos são diferentes  
+#### !=
+Compara se os valores são diferentes  
+#### &&
+**Operador lógico AND**  
+- Compara as duas condições que precisam ser verdadeiras para que a expressão seja validada como verdadeira  
+#### ||
+**Operador lógico OR**  
+- Compara as duas condições, bastando apenas uma delas serem verdadeiras para que a expressão seja validada como verdadeira. A expressão somente será falsa se todas as condições comparadas forem falsas  
+#### ++ ou +=
+**Operador Incremental**  
+- Utilizado em Loops para incrementar o valor de uma variável  
+#### -- ou -=
+**Operador Decremental**  
+- Utilizado em Loops para decrementar o valor de uma variável  
+
+### Controle de Fluxo
+#### If(condição){instruções}
+Uma condição If que for verdadeira **anulará** as demais condições else if ou else  
+#### Switch
+Estrutura de controle com opções pré-definidas  
+Utilize sempre o comando **break** para interromper o bloco.  
+
+### Laços de Repetição
+#### For(valor inicial; valor final; incremento){Instruções}
+**break**  
+- Interrompe a execução do laço quando alcança a instrução desejada
+
+**continue**  
+- Similar ao break, porém ignora a instrução e vai para a próxima iteração
+
+## Template String
+### \` (crase)
+#### Recurso incrível do ${ js }  
+Recurso do js que permite pular linha numa string  
+Permite inserção de comandos dentro de um texto
