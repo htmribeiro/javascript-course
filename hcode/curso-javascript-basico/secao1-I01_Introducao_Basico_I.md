@@ -23,6 +23,7 @@ O comando utilizado para declarar variáveis no JavaScript
 #### let  
 Este comando declara variáveis definindo o escopo de atuação  
 Leva em conta o escopo em que foi definida, ou seja, aonde você declarou a variável  
+Quando declaramos uma variável com **let** ela se torna uma ***variável mutável***, sendo assim, podemos reatribuir um novo valor a ela  
 #### const  
 Declara constantes  
 O valor declarado nunca muda  
