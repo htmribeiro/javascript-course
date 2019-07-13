@@ -1,4 +1,5 @@
 ## Aula 5 - I02 - Introdução ao JavaScript - Básico II
+
 ### Função e Objeto
 *Funções* são **Trechos de Códigos** que podem ser reutilizados  
 As *Funções* executam algo e retornam algum valor  
