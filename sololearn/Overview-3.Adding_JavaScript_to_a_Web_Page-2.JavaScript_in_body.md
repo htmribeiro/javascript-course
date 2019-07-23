@@ -2,7 +2,7 @@
 
 Alternatively, include the JavaScript in the \<body> tag.  
 
->###### |HTML|  
+>###### |html|  
 >\<html><br>
 &nbsp; \<head>\</head><br/>
 &nbsp; \<body><br/>

@@ -3,7 +3,7 @@
 Let's start with adding JavaScript to a webpage.  
 JavaScript on the web lives inside de **HTML** document.  
 In HTML, JavaScript code must be inserted between **\<scritp>** and **\</scritp>** tags: 
-> ###### |HTML|
+> ###### |html|
 >\<script><br/>...<br/>\</script>  
 
 JavaScipt can be placed in the HTML page's **\<body>** and **\<head>** sections.  

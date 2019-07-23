@@ -3,7 +3,7 @@
 You can place any number of scripts in an HTML document.  
 Typically, the script tag is placed in the head of the HTML document:  
 
->###### |HTML|  
+>###### |html|  
 >\<html><br/>
 &nbsp; \<head>
 &nbsp; &nbsp; **\<script>**<br/>
