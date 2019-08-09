@@ -16,6 +16,12 @@
             "request": "launch",
             "name": "Launch index.html",
             "file": "${workspaceFolder}/hcode/curso-javascript-basico/index.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch SoloLearn",
+            "file": "${workspaceFolder}/sololearn/code/overview3.3.htm"
         }
     ]
 }
